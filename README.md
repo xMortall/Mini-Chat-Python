@@ -40,16 +40,18 @@ mini_chat/
 
 ### 1️⃣ Servidor
 
+```bash
 No terminal, execute:
 
-```bash
+c
 python3 server.py
+```
 
-
-Em outro terminal, execute:
+```bash
+#Em outro terminal, execute:
 
 python client.py
 
 
-O cliente conectará ao servidor e permitirá enviar mensagens.
-Você pode abrir vários clientes simultaneamente para testar o chat.
+#O cliente conectará ao servidor e permitirá enviar mensagens.
+#Você pode abrir vários clientes simultaneamente para testar o chat.
