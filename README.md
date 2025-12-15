@@ -25,6 +25,7 @@ O projeto permite múltiplos clientes conectados ao mesmo tempo, com envio e rec
 ---
 
 ## 📂 Estrutura do projeto
+```bash
 
 mini_chat/
 │
@@ -32,7 +33,7 @@ mini_chat/
 ├── client.py # Código do cliente
 ├── bibliotecas.py # Onde está todas as bibliotecas
 └── README.md # Este arquivo
-
+```
 
 ---
 
