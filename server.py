@@ -17,7 +17,7 @@ async def client_msg(reader, writer):
 
     try:
         while True:
-            data = await reader.read(100) # Recebe a mensagem até 100 bytes
+            data = await reader.read(1024) # Recebe a mensagem até 1024 bytes
             if not data:
                 break
             msg = data.decode()
